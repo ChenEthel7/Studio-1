@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/studio file 1.unity
+    guid: dcbc862b906ee21458e38be819b2fd37
+  - enabled: 1
+    path: Assets/Scenes/goatroom.unity
+    guid: 440cf2754725a4148a92c04dcc8b7a08
+  - enabled: 1
+    path: Assets/Scenes/autoroom.unity
+    guid: 389d90bc839cb3a44a38658948d2c1e4
   m_configObjects: {}
