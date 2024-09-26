@@ -55,7 +55,11 @@ TextureImporter:
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
+<<<<<<< HEAD
   textureShape: 2
+=======
+  textureShape: 1
+>>>>>>> master
   singleChannelComponent: 0
   flipbookRows: 1
   flipbookColumns: 1
@@ -93,6 +97,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 1024
@@ -106,6 +111,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> master
   spriteSheet:
     serializedVersion: 2
     sprites: []
