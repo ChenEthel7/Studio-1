@@ -1,4 +1,3 @@
-using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
 
@@ -26,7 +25,7 @@ public class MontyHall : MonoBehaviour
     private Color chosenColor = Color.white;
     private Color revealedColor = Color.yellow;
     private Color winningColor = Color.green;
-
+    
 
     // On awake, initialize the game
     void Awake()
@@ -53,9 +52,16 @@ public class MontyHall : MonoBehaviour
 
             // Grab their Platform component and set their scene indices
             // based on what the winning platform is.
-            
-            /* Your code here */
 
+            /* Your code here */
+            if (i == winningPlatform)
+            {
+                platforms[i].GetComponent<Platform>().targetSceneId = 1;
+            }
+            else
+            {
+                platforms[i].GetComponent<Platform>().targetSceneId = 2;
+            }
         }
 
         // Initialize player's choice and the revealed platform

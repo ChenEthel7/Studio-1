@@ -10,7 +10,7 @@ public class Platform : MonoBehaviour
     Teleporter teleporter;
 
     // User-defined scene to teleport to. Default: 0
-    [SerializeField]
+    //[SerializeField]
     public int targetSceneId = 0;   
 
     /// <summary>
@@ -28,7 +28,7 @@ public class Platform : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             /* Your code here */
-
+            teleporter.SwitchToScene(targetSceneId);
         }
     }
 }
